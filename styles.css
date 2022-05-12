@@ -1,0 +1,75 @@
+* {
+    font-family: "Kumbh Sans";
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:Cyan; background-image: linear-gradient(90deg, Cyan, #003333);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px transparent white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-bg {
+    position: relative;
+}
+
+svg {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img {
+    position: absolute;
+    top: 80px;
+    right: 125px;
+}
+
+.img img {
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.container h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.london {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.other span {
+    font-size: smaller;
+}
+
+hr {
+    width: 100%;
+}
+
+.other {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+}
