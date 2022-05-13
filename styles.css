@@ -4,6 +4,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -73,3 +74,25 @@ hr {
 span {
     color: hsl(0, 0%, 59%);
 }
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 500px){
+    .img {
+        right: 75px;
+    }
+
+    .container {
+        width: 270px;
+    }
+
+    .card-bg {
+        width: 270px;
+    }
+
+    svg {
+        width: 270px;
+    }
+}
+
+    
